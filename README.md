@@ -20,10 +20,10 @@ As an example, you could do the following to use the Like.js code:
 
 ## Like.js
 
-This file enables the following functionality:
+This file creates a GUI interface on SharePoint pages which allows the user to like or unlike the page via asychronous JavaScript calls. This is vastly better than the default SharePoint like/unlike functionality, which only allows users to like a page while viewing list items from within a library view. The code performs the following:
 
-* On page load, determines how many, if any, likes the page has and displays appropriate verbiage.
-* Allows people to like/unlike the page.
+* On page load, determines how many, if any, likes the page has and displays appropriate verbiage at the top of the page.
+* Allows people to like/unlike the page without navigating elsewhere.
 
 I have chosen to use the SharePoint ms-descriptiontext DIV to hold the information. This is the DIV which displays the default SP "Last Modified at" text, so it made sense to me to use this DIV for the like information. Obviously, you can change this by editing the code.
   
