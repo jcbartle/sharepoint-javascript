@@ -25,7 +25,7 @@ This file enables the following functionality:
 * On page load, determines how many, if any, likes the page has and displays appropriate verbiage.
 * Allows people to like/unlike the page.
 
-I have chosen to use the SharePoint ms-descriptiontext DIV to hold the information. This is the DIV which displays the default SP "Last Modified at <date> <time> by <user>" text, so it made sense to me to use this DIV for the like information. Obviously, you can change this by editing the code.
+I have chosen to use the SharePoint ms-descriptiontext DIV to hold the information. This is the DIV which displays the default SP "Last Modified at" text, so it made sense to me to use this DIV for the like information. Obviously, you can change this by editing the code.
   
 To give credit where credit is due, the following page got me started on creating this functionality. I feel my implementation is quite a bit more advanced, but this did get me started.
 
